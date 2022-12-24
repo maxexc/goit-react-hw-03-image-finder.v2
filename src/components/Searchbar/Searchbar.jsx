@@ -1,4 +1,4 @@
-import { FcSearch } from "react-icons/fc";
+// import { FcSearch } from "react-icons/fc";
 import PropTypes from 'prop-types';
 import {
   SearchBarHeader,
@@ -13,7 +13,8 @@ export const Searchbar = ({ onSubmit  }) => {
     <SearchBarHeader className="searchbar">
       <SearchForm onSubmit={onSubmit }>
         <SearchFormBtn type="submit" >                 
-            <FcSearch style={{ width: 24, height: 24 }} /> Search                  
+            {/* <FcSearch style={{ width: 24, height: 24 }} />  */}
+            Search                  
         </SearchFormBtn>
 
         <SearchFormInput          
